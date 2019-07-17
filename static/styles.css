@@ -471,6 +471,7 @@
   .info-box{
     height: auto;
     padding: 40px;
+    padding-bottom: 80px;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
   }
