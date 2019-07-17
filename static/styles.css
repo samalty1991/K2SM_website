@@ -429,6 +429,14 @@
   height: 310px;
 }
 
+.info-box-sm{
+  display: none;
+}
+
+#find-out-sm{
+  display: none;
+}
+
 #find-out{
   background-image: linear-gradient(to bottom, #009900, #006600);
   color: #ffffff;
@@ -467,9 +475,19 @@
   .info-box{
     height: auto;
     padding: 40px;
-    padding-bottom: 150px;
+  }
+  .info-box-sm{
+    display: block;
+    height: auto;
+    background-color: #ffffff;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    padding: 40px;
   }
   #find-out{
+    display: none;
+  }
+  #find-out-sm{
     font-size: 60px;
     box-shadow: 12px 12px 32px #888888;
     position: relative;
