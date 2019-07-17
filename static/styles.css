@@ -429,11 +429,7 @@
   height: 310px;
 }
 
-.info-box-sm{
-  display: none;
-}
-
-#find-out-sm{
+.sm-break{
   display: none;
 }
 
@@ -475,19 +471,13 @@
   .info-box{
     height: auto;
     padding: 40px;
-  }
-  .info-box-sm{
-    display: block;
-    height: auto;
-    background-color: #ffffff;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
-    padding: 40px;
+  }
+  .sm-break{
+    display: block;
   }
   #find-out{
-    display: none;
-  }
-  #find-out-sm{
     font-size: 60px;
     box-shadow: 12px 12px 32px #888888;
     position: relative;
